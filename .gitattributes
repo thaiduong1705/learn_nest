@@ -1,0 +1,10 @@
+# Đảm bảo tất cả file text dùng LF trong repo
+* text=auto
+
+# File script luôn dùng LF
+*.sh eol=lf
+*.bash eol=lf
+
+# File dành riêng cho Windows dùng CRLF
+*.bat eol=crlf
+*.cmd eol=crlf
